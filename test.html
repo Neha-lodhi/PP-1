@@ -9,7 +9,6 @@
    New text
 
    Use acp alias to hit three <command>together 
-
-    new command git acp
+git config --global alias.acp '!f() { git add . && git commit -m "$1" && git push; }; f'
 </body>
 </html>
